@@ -1,0 +1,45 @@
+.settingsWrapper {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.inputsContainer {
+    border: 1px solid var(--border-color);
+    color: var(--border-color);
+    padding: 20px 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 10px;
+}
+
+.inputItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputItem input {
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 5px;
+    color: var(--border-color);
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.buttonsContainer {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
