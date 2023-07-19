@@ -1,0 +1,67 @@
+.timerPageWrapper{
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.timerSettingsContainer {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.settingsInputs{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.timerSettingsItem h3 {
+    margin-top: 0;
+    color: var(--border-color);
+}
+
+.timerSettingsItem input {
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 5px;
+    color: var(--border-color);
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.timerContainer {
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    border-radius: 10px1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.timerContainer p {
+    color: var(--border-color);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.overMessage{
+    color: red;
+    margin: 0;
+}
+
+
+.defaultFixedButton{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
